@@ -1,7 +1,7 @@
 :root {
   --blue: #0b2e42;
   --aqua: #00c7ea;
-  --light:#cad7e0
+  --light: #cad7e0
 }
 
 * {
@@ -31,31 +31,145 @@
   height: 5px;
   background-color: var(--blue);
 }
-.header_top{
+
+.header {
+  background-color: var(--aqua);
+  color: #cad7e0;
+}
+
+.header_top {
   padding: 10px 0 20px;
   background-color: var(--light);
 }
-.header_top_grit{
+
+.header_top_grit {
   display: flex;
-  align-items:end;
+  align-items: end;
   justify-content: space-between;
 }
-.heder_logo{
+
+.heder_logo {
   height: 50px;
   width: 150px;
   border-radius: 5px;
   background-color: var(--blue);
 }
-.nav__item{
+
+.nav__item {
   display: inline-block;
   margin-right: 10px;
 }
-.nav__item a{
+
+.nav__item a {
   text-decoration: none;
   font-size: 20px;
   text-transform: uppercase;
+}
+
+.header_main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 25px;
+  padding: 100px;
+}
+
+.header_tex {
+  width: 80%;
+  line-height: 25px;
+  text-align: center;
+}
+
+.header_main button {
+  margin-top: 25px;
+  background-color: var(--blue);
+  width: 300px;
+  color: #ffffff;
+  border-radius: 20px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.product {
+  padding: 100px;
+  background-color: var(--light);
+}
+
+.products_title {
+  align-items: center;
+}
+
+.products_grit {
+  border: 1px solid var(--aqua);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.products_list {
+  display: flex;
+  column-gap: 30px;
+}
+
+.product_item {
+  flex-grow: 1;
 
 }
 
+.products_item_img {
+  height: 200px;
+  background-color: var(--blue);
+  border-radius: 10px;
+}
+
+.product_item p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.about {
+  background-color: var(--blue);
+  padding: 50px 0;
+
+}
+
+.about_grit {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.about_cart {
+  width: 30%;
+  border: 3px solid transparent;
+  border-radius: 1px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  color: azure;
+  transition: all 0.75s;
+}
+
+.about_cart:hover {
+  border-color: var(--light);
+
+}
+
+.about_name {
+  font-size: 25px;
+  font-weight: 700;
+
+}
+
+.about_photo > div {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: var(--light);
+
+}
 
 
