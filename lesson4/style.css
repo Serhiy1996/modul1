@@ -1,0 +1,61 @@
+:root {
+  --blue: #0b2e42;
+  --aqua: #00c7ea;
+  --light:#cad7e0
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.soc-icon {
+  background-color: var(--aqua);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 25px;
+  column-gap: 5px;
+  list-style: none;
+}
+
+.soc-icon_linc {
+  width: 25px;
+  height: 5px;
+  background-color: var(--blue);
+}
+.header_top{
+  padding: 10px 0 20px;
+  background-color: var(--light);
+}
+.header_top_grit{
+  display: flex;
+  align-items:end;
+  justify-content: space-between;
+}
+.heder_logo{
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: var(--blue);
+}
+.nav__item{
+  display: inline-block;
+  margin-right: 10px;
+}
+.nav__item a{
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+
+}
+
+
+
